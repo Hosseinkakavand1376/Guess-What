@@ -1,0 +1,26 @@
+/* Configs */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(188,75,41);
+    background: linear-gradient(45deg, rgb(175 77 48) 0%, rgb(96 30 10) 100%);
+    min-height: 100vh;
+}
+
+#background-image {
+    filter: blur(5px);
+}
+
+/* Game Panel */
+.crossed {
+    filter: grayscale(100%);
+    background-color: gray;
+}
+
+.items .card:not(.crossed) {
+    cursor: pointer;
+}
